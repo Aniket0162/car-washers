@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bedb28f9b6.js" crossorigin="anonymous"></script>
+
+    <title>Welcome to our Carwash </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="/logo.jpg" height="40px" width="40px" alt="">
+            <a class="navbar-brand p-2" href="#">Carwash site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="/index.html"><i class="fa fa-car p-2" aria-hidden="true"></i>Services</a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link"  aria-current="page" href="/about.html"><i class="fa-solid fa-circle-info p-2"></i>About</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/profile.html"><i class="fa-solid fa-address-card p-2"></i>Profile</a>
+                    </li>
+
+                    
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <!-- <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+  
+    <!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to CarWash </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Click me out
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Signup Modal -->
+    <!-- <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Signup to CarWash </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+
+
+                    <br>
+                    <div>
+                        <button type="button" class="btn btn-primary">Create Account</button>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ -->
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/1.jpg" height="770px" width="750px" class="d-block w-100" alt="...">
+                <!-- <img
+          src="https://assets.website-files.com/609c6deb9a31505bb1c7fa39/613e67a4c50d3c26936729a7_IMG_1858-Enhanced-2-Edit.jpg"
+          height="770px" width="750px" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Carwash</h5>
+                    <p>Facilities like car polishing , exterior & interior cleaning.</p>
+
+                    <button type="button" class="btn btn-danger">Car polishing</button>
+
+                    <button type="button" class="btn btn-primary">Exterior cleaning</button>
+
+                    <button type="button" class="btn btn-success">Interior cleaning</button>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/2.jpg" height="770px" width="750px" class="d-block w-100" alt="...">
+                <!-- <img
+          src="https://media.istockphoto.com/photos/time-for-us-picture-id1301007605?b=1&k=20&m=1301007605&s=170667a&w=0&h=st4gkw06djkZIs0KZgRpMrDN8eURtQoDVxkxHl1JMw8="
+          height="770px" width="750px" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>The Best Services</h5>
+                    <p>Facilities like car polishing , exterior & interior cleaning.</p>
+
+                    <button type="button" class="btn btn-danger">Car polishing</button>
+
+                    <button type="button" class="btn btn-primary">Exterior cleaning</button>
+
+                    <button type="button" class="btn btn-success">Interior cleaning</button>
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/3.jpg" height="770px" width="750px" class="d-block w-100" alt="...">
+                <!-- <img src="https://www.charmcitycirculator.com/wp-content/uploads/2022/03/how-to-clean-car-tires.jpg"
+          height="770px" width="750px" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Deluxe Weels/Tires Washing </h5>
+                    <p>Facilities like car polishing , exterior & interior cleaning.</p>
+
+                    <button type="button" class="btn btn-danger">Car polishing</button>
+
+                    <button type="button" class="btn btn-primary">Exterior cleaning</button>
+
+                    <button type="button" class="btn btn-success">Interior cleaning</button>
+
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+  
+    <div class="container my-4">
+        <!-- <img class="img-center" src="/logo2.jpg" height="100px" width="100px" alt=""> -->
+        <h1 class="text-center">Welcome to WashMyCar</h1>
+        <p class="text-center">How can we help you?</p>
+    </div>
+
+    <div class="container my-4 ">
+        <div class="card-group">
+            <div class="card my-4  mx-2">
+                <img src="/4.jpg" class="card-img-top " width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ROADSIDE ASSISTANCE </h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#ASSISTANCEModal"> ASSISTANCE</button>
+                    </div>
+                    <p class="card-text my-2">Roadside assistance in car insurance acts as a saviour in such times. This
+                        add-on cover
+                        comes to your rescue if your car breaks down and you are stranded. 24x7 roadside assistance
+                        provides you
+                        with services that take care of emergencies ranging from running out of fuel to a mechanical
+                        defect.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <!-- Assistance Modal -->
+            <div class="modal fade" id="ASSISTANCEModal" tabindex="-1" aria-labelledby="ASSISTANCEModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ASSISTANCEModalLabel">ASSISTANCE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="d-grid gap-2 my-2">
+                                <label>Vehicle Name:</label>
+                                <input type="text" class="form-control" id="basic-addon1" placeholder="Vehicle Name">
+                            </div>
+                            
+                           
+                            <div class="d-grid gap-2 my-4">
+                                <label>Vehicle Number:</label>
+                                <input type="number" class="form-control" id="basic-addon1" placeholder="Vehicle Number">
+                            </div>
+                     
+
+                          
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Vechile Type</option>
+                                <option value="1">Bullet or Sports bike</option>
+                                <option value="2">truck ten wheels</option>
+                                <option value="3">traveller small</option>
+                                <option value="4">truck six wheels</option>
+                                <option value="5">bike</option>
+                                <option value="6">premium suv or muv</option>
+                                <option value="7">pickup small</option>
+                                <option value="8">compact suv</option>
+                                <option value="9">minibus</option>
+                                <option value="10">truck four wheels</option>
+                                <option value="11">suv or muv</option>
+                                <option value="12">ambulance small</option>
+                                <option value="13">tourist bus</option>
+                                <option value="14">traveller big</option>
+                                <option value="15">none</option>
+                            </select>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card my-4  mx-2">
+                <img src="/5.jpg" class="card-img-top" width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CAR DETALING</h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                            data-bs-target="#DETALINGModal"> DETALING</button>
+                    </div>
+                    <p class="card-text my-2">The Car Detailer will clean vehicles according to company standards or
+                        client
+                        specifications, which may include performing detail inspections, thoroughly.Car detailers clean
+                        automotive
+                        interiors and exteriors. They provide a variety of cleaning services which range from a basic
+                        wash to an
+                        intensive cleaning job.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Detail Modal -->
+        <div class="modal fade" id="DETALINGModal" tabindex="-1" aria-labelledby="DETALINGModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="DETALINGModalLabel">DETALING </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <div class="d-grid gap-2 my-2 ">
+                            
+                            <label>Vehicle Name:</label>
+                            <input type="text " class="form-control " id="basic-addon1 " placeholder="Vehicle Name">
+                        </div>
+                        
+                       
+                        <div class="d-grid gap-2 my-4">
+                            <label>Vehicle Number:</label>
+                            <input type="number" class="form-control" id="basic-addon1" placeholder="Vehicle Number">
+                        </div>
+                 
+                        <select class="form-select" aria-label="Default select example">
+                            
+                            <option selected>Vechile Type</option>
+                            <option value="1">Bullet or Sports bike</option>
+                            <option value="2">truck ten wheels</option>
+                            <option value="3">traveller small</option>
+                            <option value="4">truck six wheels</option>
+                            <option value="5">bike</option>
+                            <option value="6">premium suv or muv</option>
+                            <option value="7">pickup small</option>
+                            <option value="8">compact suv</option>
+                            <option value="9">minibus</option>
+                            <option value="10">truck four wheels</option>
+                            <option value="11">suv or muv</option>
+                            <option value="12">ambulance small</option>
+                            <option value="13">tourist bus</option>
+                            <option value="14">traveller big</option>
+                            <option value="15">none</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="card-group">
+            <div class="card my-4  mx-2">
+                <img src="6.jpg" class="card-img-top " width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CAR WASHING </h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                            data-bs-target="#WASHINGModal">WASHING</button>
+                    </div>
+                    <p class="card-text my-2">Focus on the wheels. Use a hose with a nozzle that provides good water
+                        pressure to spray
+                        the wheels of the car.
+                        Prep and lather. Spray the entire vehicle with water to rinse away surface dirt and to give your
+                        vehicle a
+                        good coating of water.
+                        Rinse and dry.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+
+            <!-- Washing Modal -->
+            <div class="modal fade" id="WASHINGModal" tabindex="-1" aria-labelledby="WASHINGModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="WASHINGModalLabel">WASHING </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body ">
+                            <div class="d-grid gap-2 my-2 ">
+                                <label>Vehicle Name:</label>
+                                <input type="text " class="form-control " id="basic-addon1 " placeholder="Vehicle Name">
+                            </div>
+                            
+                           
+                            <div class="d-grid gap-2 my-4">
+                                <label>Vehicle Number:</label>
+                                <input type="number" class="form-control" id="basic-addon1" placeholder="Vehicle Number">
+                            </div>
+                     
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Vechile Type</option>
+                                <option value="1">Bullet or Sports bike</option>
+                                <option value="2">truck ten wheels</option>
+                                <option value="3">traveller small</option>
+                                <option value="4">truck six wheels</option>
+                                <option value="5">bike</option>
+                                <option value="6">premium suv or muv</option>
+                                <option value="7">pickup small</option>
+                                <option value="8">compact suv</option>
+                                <option value="9">minibus</option>
+                                <option value="10">truck four wheels</option>
+                                <option value="11">suv or muv</option>
+                                <option value="12">ambulance small</option>
+                                <option value="13">tourist bus</option>
+                                <option value="14">traveller big</option>
+                                <option value="15">none</option>
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger">Save </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card my-4 mx-2">
+                <img src="7.jpg" class="card-img-top" width="200" height="250" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">SANITIZATION SERVICES</h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
+                            data-bs-target="#SANITIZATIONModal">SANITIZATION</button>
+                    </div>
+                    <p class="card-text my-2">Effectively eliminates and prevents offensive odors' and allergic
+                        reactions caused by
+                        bacteria and fungi.Mist based Antibacterial/Germ cleaner reaches.Disinfecting kills harmful
+                        bacteria and
+                        viruses from surfaces. Sterilizing kills all microorganisms from surfaces.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SANITIZATION Modal -->
+    <div class="modal fade" id="SANITIZATIONModal" tabindex="-1" aria-labelledby="SANITIZATIONModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SANITIZATIONModalLabel">SANITIZATION </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <div class="d-grid gap-2 my-2 ">
+                        <label>Vehicle Name:</label>
+                        <input type="text " class="form-control " id="basic-addon1 " placeholder="Vehicle Name">
+                    </div>
+                    
+                   
+                    <div class="d-grid gap-2 my-4">
+                        <label>Vehicle Number:</label>
+                        <input type="number" class="form-control" id="basic-addon1" placeholder="Vehicle Number">
+                    </div>
+             
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Vechile Type</option>
+                        <option value="1">Bullet or Sports bike</option>
+                        <option value="2">truck ten wheels</option>
+                        <option value="3">traveller small</option>
+                        <option value="4">truck six wheels</option>
+                        <option value="5">bike</option>
+                        <option value="6">premium suv or muv</option>
+                        <option value="7">pickup small</option>
+                        <option value="8">compact suv</option>
+                        <option value="9">minibus</option>
+                        <option value="10">truck four wheels</option>
+                        <option value="11">suv or muv</option>
+                        <option value="12">ambulance small</option>
+                        <option value="13">tourist bus</option>
+                        <option value="14">traveller big</option>
+                        <option value="15">none</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning">Save </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-4">
+        <div class="container-fluid" style="background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);">
+           <div class="container p-5">
+               <h1 class="text-center p-4"> <strong>Pricing</strong>   </h1>
+             <div class="row">
+               <div class="col-lg-4 col-md-12 mb-4">
+                 <div class="card h-100 shadow-lg">
+                   <div class="card-body">
+                     <div class="text-center p-3">
+                       <h5 class="card-title">Basic</h5>
+                       <small>Basic Plan</small>
+                       <br><br>
+                       <span class="h2">1000/-Rs</span>/2 Month
+                       <br><br>
+                     </div>
+                   
+                   </div>
+                   <ul class="list-group list-group-flush">
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg>Car wash</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Car paint</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Checking of all tires</li>
+                   </ul>
+                   <div class="card-body text-center">
+                     <button class="btn btn-success btn-lg" style="border-radius:30px"> <a href="profile.html" class="text-white" style="text-decoration: none;">Purchase</a></button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-lg-4 col-md-12 mb-4">
+                 <div class="card h-100 shadow-lg">
+                   <div class="card-body">
+                     <div class="text-center p-3">
+                       <h5 class="card-title">Standard</h5>
+                       <small>Standard Plan</small>
+                       <br><br>
+                       <span class="h2">2000/-Rs</span>/4 Month 
+                       <br><br>
+                     </div>
+                   
+                   </div>
+                   <ul class="list-group list-group-flush">
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Car service</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Oil Filter Check</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Spark Plug Cleaning</li>
+                   </ul>
+                   <div class="card-body text-center">
+                     <button class="btn btn-success btn-lg" style="border-radius:30px"> <a href="profile.html" class="text-white" style="text-decoration: none;"> Purchase</a></button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-lg-4 col-md-12 mb-4">
+                 <div class="card h-100 shadow-lg">
+                   <div class="card-body">
+                     <div class="text-center p-3">
+                       <h5 class="card-title">Premium</h5>
+                       <small>Premium Plan</small>
+                       <br><br>
+                       <span class="h2">5000/-Rs</span>/8 Month
+                       <br><br>
+                     </div>
+                    
+                   </div>
+                   <ul class="list-group list-group-flush">
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> full car maintenace</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg>full parts change</li>
+                     <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                       <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                     </svg> Car washing and Sanitization</li>
+                   </ul>
+                   <div class="card-body text-center">
+                   
+                   <button class="btn btn-success btn-lg"  style="border-radius: 30px;"> <a href="profile.html"  class="text-white"  style="text-decoration: none;   ">Purchase</a> </button>
+                   </div>
+                 </div>
+               </div>
+             </div>    
+           </div>
+       
+       </div>
+       
+    <!-- <footer class="container  justify-content-center align-items-center">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p> @ 2020-2021 Copyright &copy; www.Carwash,Inc.'.com. All right reserved! <a href="#">Privacy</a> . <a
+                href="#">Terms</a>
+        </p>
+
+    </footer> -->
+
+    <footer class="bg-dark text-center text-white ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"
+                        aria-hidden="true"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"
+                        aria-hidden="true"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"
+                        aria-hidden="true"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"
+                        aria-hidden="true"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"
+                        aria-hidden="true"></i></a>
+
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <div class="container">
+            <p class="float-end" style="background-color: rgba(0, 0, 0, 0.2)"><a href="#">Back to top</a></p>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="index.html">Carwash.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
